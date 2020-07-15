@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Walk Menu</string>
+    <string name="login">Login</string>
+    <string name="or">or</string>
+    <string name="enter_otp_prompt">Please enter the one-time password to verify your account</string>
+    <string name="validate">Validate</string>
+    <string name="enter_details">Please enter your details</string>
+    <string name="get_started">Get started</string>
+    <string name="verification_failed">Verification failed. Please try again</string>
+    <string name="otp_sent_to">A one-time password has been sent to</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="code_not_received">Didn\'t receive a code?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="unable_to_add_account">Unable to add your account. Please try again.</string>
+
+    <string name="my_bookings">My Bookings</string>
+    <string name="help">Help</string>
+
+    <string name="logout">Logout</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="no_name">Name not found</string>
+    <string name="see_all">See all</string>
+    <string name="see_less">See less</string>
+    <string name="categories">Categories</string>
+    <string name="services_by_category">Services by category</string>
+    <string name="reschedule">Reschedule</string>
+
+    <string name="delivery">Delivery</string>
+    <string name="household">Household</string>
+    <string name="delivery_services">Delivery Services</string>
+    <string name="household_service">Household Services</string>
+    <string name="shop">Shop</string>
+
+    <string name="rupee_symbol">₹</string>
+
+    <!--START: Firebase Firestore values-->
+    <string name="firestore_collection_user_data" translatable="false">UserData</string>
+    <string name="firestore_collection_user_data_field_name" translatable="false">name</string>
+    <string name="firestore_collection_user_data_field_email" translatable="false">email</string>
+
+    <string name="firestore_collection_order_data" translatable="false">OrderData</string>
+    <string name="firestore_collection_order_data_field_accepted_shop_number" translatable="false">acceptedShopNumber</string>
+    <string name="firestore_collection_order_data_field_user_id" translatable="false">userId</string>
+    <string name="firestore_collection_order_data_field_service_date" translatable="false">serviceDate</string>
+    <string name="firestore_collection_order_data_field_service_type" translatable="false">serviceType</string>
+    <string name="firestore_collection_order_data_field_service_category" translatable="false">serviceCategory</string>
+    <string name="firestore_collection_order_data_field_service_name" translatable="false">serviceName</string>
+    <string name="firestore_collection_order_data_field_service_price" translatable="false">servicePrice</string>
+    <string name="firestore_collection_order_data_field_status" translatable="false">status</string>
+    <string name="firestore_collection_order_data_field_shop_address" translatable="false">shopAddress</string>
+    <string name="firestore_collection_order_data_field_shop_icon_url" translatable="false">shopIconUrl</string>
+    <string name="firestore_collection_order_data_field_shop_name" translatable="false">shopName</string>
+
+    <string name="firestore_collection_app_data" translatable="false">AppData</string>
+    <string name="firestore_collection_app_data_doc_ads" translatable="false">Ads</string>
+    <string name="firestore_collection_app_data_doc_ads_subcollection_data" translatable="false">Data</string>
+    <string name="firestore_collection_app_data_doc_ads_subcollection_data_field_image" translatable="false">image</string>
+    <string name="firestore_collection_app_data_doc_ads_subcollection_data_field_order_in_category" translatable="false">orderInCategory</string>
+    <string name="firestore_collection_app_data_doc_categories" translatable="false">Categories</string>
+    <string name="firestore_collection_app_data_doc_categories_subcollection_data" translatable="false">Data</string>
+    <string name="firestore_collection_app_data_doc_categories_field_icon" translatable="false">categoryIcon</string>
+    <string name="firestore_collection_app_data_doc_categories_field_name" translatable="false">categoryName</string>
+    <string name="firestore_collection_app_data_doc_categories_field_order_in_category" translatable="false">orderInCategory</string>
+    <string name="firestore_collection_app_data_doc_services" translatable="false">Services</string>
+    <string name="firestore_collection_app_data_doc_services_subcollection_data" translatable="false">Data</string>
+    <string name="firestore_collection_app_data_doc_services_subcollection_data_field_icon_url" translatable="false">iconUrl</string>
+    <string name="firestore_collection_app_data_doc_services_subcollection_data_field_service_name" translatable="false">serviceName</string>
+    <string name="firestore_collection_app_data_doc_services_subcollection_data_field_service_type" translatable="false">serviceType</string>
+    <string name="firestore_collection_app_data_doc_services_subcollection_data_field_service_locations" translatable="false">serviceLocations</string>
+
+    <string name="firestore_collection_shop_data" translatable="false">ShopData</string>
+    <string name="firestore_collection_shop_data_field_shop_type" translatable="false">shopType</string>
+    <string name="firestore_collection_shop_data_field_shop_name" translatable="false">shopName</string>
+    <string name="firestore_collection_shop_data_field_shop_icon_url" translatable="false">shopIconUrl</string>
+    <string name="firestore_collection_shop_data_field_shop_address" translatable="false">shopAddress</string>
+    <string name="firestore_collection_shop_data_field_service_location" translatable="false">serviceLocations</string>
+    <string name="firestore_collection_shop_data_subcollection_items" translatable="false">Items</string>
+    <string name="firestore_collection_shop_data_subcollection_items_field_item_name" translatable="false">itemName</string>
+    <string name="firestore_collection_shop_data_subcollection_items_field_item_price" translatable="false">itemPrice</string>
+    <string name="firestore_collection_shop_data_subcollection_items_field_item_icon_url" translatable="false">itemIconUrl</string>
+    <string name="firestore_collection_shop_data_subcollection_items_field_item_description" translatable="false">itemDescription</string>
+    <string name="firestore_collection_shop_data_subcollection_items_field_item_category" translatable="false">itemCategory</string>
+    <!--END: Firebase Firestore values-->
+
+    <string name="service_delivery">Delivery services</string>
+    <string name="service_delivery_order">Order</string>
+    <string name="service_delivery_send_packages">Send packages</string>
+
+    <string name="service_household">Household services</string>
+    <string name="service_household_plumber">Plumber</string>
+    <string name="service_household_pest_control">Pest control</string>
+    <string name="service_household_painter">Painter</string>
+    <string name="service_household_electrician">Electrician</string>
+    <string name="service_household_carpenter">Carpenter</string>
+
+    <string name="service_shop">Shop</string>
+    <string name="service_shop_general_store">General store</string>
+    <string name="service_shop_beauty_store">Beauty store</string>
+    <string name="service_shop_clothing_store">Clothing</string>
+
+    <string name="invalid">Invalid service</string>
+
+    <string name="status_pending">Pending</string>
+    <string name="status_accepted">Accepted</string>
+    <string name="status_started">Started</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_canceled">Canceled</string>
+
+    <string name="shop_image">Shop image</string>
+    <string name="shop_acceptance_waiting">Waiting for a shop to accept</string>
+    <string name="edit">Edit</string>
+    <string name="no_requested_services">You haven\'t requested any services</string>
+    <string name="how_it_works">How it works</string>
+    <string name="select_service_header">Select the type of repair</string>
+    <string name="select_service_explanation">Browse through the various packages and services</string>
+    <string name="choose_time_title">Choose your time slot</string>
+    <string name="choose_time_explanation">Pick a time as per your convenience</string>
+    <string name="hassle_free_service_title">Hassle free service</string>
+    <string name="hassle_free_service_explanation">Our professionals will get in touch with you an hour before the service</string>
+    <string name="select_packages">Select packages</string>
+    <string name="select_services">Select services</string>
+    <string name="content_dsc_reviewers_dp">Reviewer\'s profile picture</string>
+    <string name="content_dsc_step_one">Step one</string>
+    <string name="content_dsc_step_two">Step two</string>
+    <string name="content_dsc_step_three">Step three</string>
+    <string name="select_shop">Select a shop</string>
+    <string name="no_shops">No shops are available currently</string>
+    <string name="select_items">Select items</string>
+    <string name="no_items">No items</string>
+    <string name="order_from_any_store">Order from any store</string>
+    <string name="category">Category</string>
+    <string name="list_of_items">List of Items</string>
+    <string name="select_store_address">Select Store address</string>
+    <string name="select_your_address_1">Select your address.</string>
+    <string name="delivery_address_1">Delivery address</string>
+    <string name="select_your_address_2">Select your address.</string>
+    <string name="estimated_total">Estimated total</string>
+    <string name="_100">₹100</string>
+    <string name="instructions_if_any_1">Instructions if any</string>
+    <string name="add_your_instructions_over_here">Add your instructions over here.</string>
+    <string name="next_2">NEXT</string>
+    <string name="send_packages">Send packages</string>
+    <string name="select_pickup_address">Select pickup address</string>
+    <string name="select_your_address_3">Select your address.</string>
+    <string name="delivery_address">Delivery address</string>
+    <string name="select_your_address">Select your address.</string>
+    <string name="enter_the_package_contents_1">Enter the package contents</string>
+    <string name="enter_the_package_contents_2">Enter the package contents</string>
+    <string name="instructions_if_any">Instructions if any</string>
+    <string name="add_your_additional_instructions_over_here">Add your additional instructions over here.</string>
+    <string name="next_3">NEXT</string>
+    <string name="item_1">item 1</string>
+    <string name="quantity_add">ADD</string>
+    <string name="my_cart">My Cart</string>
+    <string name="change">Change</string>
+    <string name="apply">APPLY</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="discount">Discount</string>
+    <string name="extra_charges">Extra Charges??</string>
+    <string name="total">Total</string>
+    <string name="proceed_to_pay">PROCEED TO PAY</string>
+    <string name="coupon_code_prompt">Have a coupon code?</string>
+    <string name="remove">Remove</string>
+
+    <string name="other_shop_items_title">Items in other shop</string>
+    <string name="other_shop_items_message">You already have items from another shop in your cart. Delete them and add these instead?</string>
+    <string name="other_shop_items_neutral">Cancel</string>
+    <string name="other_shop_items_positive">Yes</string>
+    <string name="text_continue">Continue</string>
+    <string name="place_order">Place order</string>
+    <string name="view_bookings">View bookings</string>
+    <string name="order_placed">Your order has been placed!</string>
+    <string name="my_addresses">My addresses</string>
+    <string name="add_new_address">Add new address</string>
+    <string name="add_address">Add address</string>
+    <string name="address_home">Home</string>
+    <string name="address_work">Work</string>
+    <string name="address_other">Other</string>
+    <string name="home">Home</string>
+    <string name="offers">Offers</string>
+    <string name="orders">Orders</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delivering_to">Delivering to</string>
+    <string name="walkmenu">WalkMenu</string>
+</resources>
